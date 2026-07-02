@@ -188,6 +188,26 @@ Using dataset `X008..3.`
 <iframe data-src='media/plots/m1_res_temp_usl_plot.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
+---
+
+:::: {.columns}
+::: {.column width='50%'}
+### Machine 1: Interaction Impact (Pressure * Temperature)
+**ANOVA Results (PartResistance) for Interaction:**
+
+- **Pr(>F) for Pressure*Temperature:** 0.8862
+- **Is Interaction Significant?:** No
+
+**Observations:**
+We assess if the effect of pressure on resistance depends on the temperature setting. The Upper Specification Limit (USL) for resistance is 10, with lower values being preferred.
+
+Using dataset `X008..3.`
+:::
+
+::: {.column width='50%'}
+<iframe data-src='media/plots/m1_res_inter_usl_plot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
 
 ---
 # Bibliography
