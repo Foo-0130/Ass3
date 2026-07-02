@@ -168,6 +168,26 @@ Using dataset `X008..3.`
 <iframe data-src='media/plots/m1_res_temp_usl_plot.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
+---
+
+:::: {.columns}
+::: {.column width='50%'}
+### Machine 1: Temperature Impact on Resistance
+**ANOVA Results (PartResistance) for Temperature:**
+
+- **Pr(>F) for Temperature:** 0.4964
+- **Is Temperature Significant?:** No
+
+**Observations:**
+We assess how varying the temperature significantly alters the product resistance. The Upper Specification Limit (USL) for resistance is 10, with lower values being preferred.
+
+Using dataset `X008..3.`
+:::
+
+::: {.column width='50%'}
+<iframe data-src='media/plots/m1_res_temp_usl_plot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
 
 ---
 # Bibliography
